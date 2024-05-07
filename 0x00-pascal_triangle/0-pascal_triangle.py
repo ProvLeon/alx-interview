@@ -1,7 +1,18 @@
 #!/usr/bin/python3
-# import python package
+"""
+This module defines a function that generates Pascal's Triangle up to a given number of levels.
+"""
+
 def pascal_triangle(n):
-    '''Create a pascal triangle'''
+    """
+    Generate Pascal's Triangle up to n levels.
+
+    Args:
+        n (int): The number of levels to generate in the triangle.
+
+    Returns:
+        list: A list of lists, where each inner list represents a level in Pascal's Triangle.
+    """
     if n <= 0:
         return []
 
