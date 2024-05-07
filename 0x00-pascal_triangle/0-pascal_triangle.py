@@ -1,4 +1,7 @@
+#!/usr/bin/python3
+# import python package
 def pascal_triangle(n):
+    '''Create a pascal triangle'''
     if n <= 0:
         return []
 
